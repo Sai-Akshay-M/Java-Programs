@@ -1,6 +1,6 @@
 package com.java.abstraction;
 
-public interface TouchScreenLaptop {
+public interface TouchScreenPhone {
 
     void scroll();
 

@@ -1,6 +1,6 @@
 package com.java.abstraction;
 
-public abstract class HPLaptop implements TouchScreenLaptop {
+public abstract class SamsungPhone implements TouchScreenPhone {
 
     @Override
     public void scroll() {

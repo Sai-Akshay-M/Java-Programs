@@ -1,6 +1,6 @@
 package com.fedex.inheritance;
 
-public class Developer extends Employee{
+public class Developer extends Employee {
     String technology;
 
     public Developer(int id, String name, String dept, double salary, String technology) {
@@ -11,8 +11,7 @@ public class Developer extends Employee{
     @Override
     protected void work() {
         super.work();
-        System.out.println("Developer is working on " +technology);
-
+        System.out.println("Developer is working on " + technology);
 
     }
 }

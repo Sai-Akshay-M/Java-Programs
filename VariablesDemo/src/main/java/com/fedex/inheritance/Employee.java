@@ -7,22 +7,17 @@ public class Employee {
     String dept;
     double salary;
 
-
     public Employee(int id, String name, String dept, double salary) {
         this.id = id;
         this.name = name;
         this.dept = dept;
         this.salary = salary;
 
-       // System.out.println("Inside the child constructor");
+        // System.out.println("Inside the child constructor");
     }
 
-
-
-    protected void work(){
+    protected void work() {
         System.out.println("Common for everyone ");
     }
-
-
 
 }

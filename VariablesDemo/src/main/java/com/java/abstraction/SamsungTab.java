@@ -1,10 +1,9 @@
 package com.java.abstraction;
 
-public class HPNotebook extends HPLaptop {
+public class SamsungTab extends SamsungPhone {
 
-   @Override
-           public void click()
-    {
+    @Override
+    public void click() {
         System.out.println("Inside the click Method");
     }
 }

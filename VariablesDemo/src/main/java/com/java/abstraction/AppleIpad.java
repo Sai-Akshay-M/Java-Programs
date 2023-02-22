@@ -1,9 +1,9 @@
 package com.java.abstraction;
 
-public class DellNotebook extends DellLaptop {
+public class AppleIpad extends AppleIphone {
 
     @Override
-    public void click(){
+    public void click() {
 
         System.out.println("Inside the click method");
     }

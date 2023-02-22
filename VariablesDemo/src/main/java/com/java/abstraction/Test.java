@@ -2,17 +2,14 @@ package com.java.abstraction;
 
 public class Test {
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
 
-        TouchScreenLaptop hp = new HPNotebook();
-                hp.scroll();
-                hp.click();
+                TouchScreenPhone ai = new AppleIpad();
+                ai.scroll();
+                ai.click();
 
-
-        TouchScreenLaptop dell = new DellNotebook();
-                dell.scroll();
-                dell.click();
+                TouchScreenPhone sam = new SamsungTab();
+                sam.scroll();
+                sam.click();
         }
-    }
-
-
+}
