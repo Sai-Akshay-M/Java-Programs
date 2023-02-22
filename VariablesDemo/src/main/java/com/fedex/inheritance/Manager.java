@@ -1,7 +1,5 @@
 package com.fedex.inheritance;
 
-import java.util.Arrays;
-
 public class Manager extends Employee {
     String[] projects;
 
