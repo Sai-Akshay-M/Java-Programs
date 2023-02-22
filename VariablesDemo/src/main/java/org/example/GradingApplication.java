@@ -1,7 +1,5 @@
 package org.example;
 
-import java.awt.*;
-
 public class GradingApplication {
 
     public static void main(String[] args) {
@@ -10,19 +8,20 @@ public class GradingApplication {
         int physics = 94;
         int chemistry = 75;
 
-        float average = (maths+physics+chemistry)/3;{
-            if (average<=59){
+        float average = (maths + physics + chemistry) / 3;
+        {
+            if (average <= 59) {
                 System.out.println("Obtained Grade is 'c'");
-            } else if (average<=69) {
+            } else if (average <= 69) {
                 System.out.println("Obtained grade is 'B'");
             } else {
                 System.out.println("Obtained grade is 'A'");
             }
         }
-        System.out.println("Average in three subjects is " +average);
+        System.out.println("Average in three subjects is " + average);
         {
 
-            if (maths <=35) {
+            if (maths <= 35) {
                 System.out.println("Failed in the maths subject");
             } else {
                 System.out.println("Passed in the  maths subject");
@@ -32,9 +31,9 @@ public class GradingApplication {
             } else {
                 System.out.println("Passed in the physics subject");
             }
-            if (chemistry <=35){
+            if (chemistry <= 35) {
                 System.out.println("Failed in the Chemistry subject");
-            }else {
+            } else {
                 System.out.println("Passed in the chemistry subject");
             }
         }
